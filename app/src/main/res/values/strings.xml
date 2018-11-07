@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SearchApp_Week2Daily1</string>
+    <string name="searchButton">searchButton</string>
+    <string name="passing_an_object_to_the_second_activity" />
+</resources>

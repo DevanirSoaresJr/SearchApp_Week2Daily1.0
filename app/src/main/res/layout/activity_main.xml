@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/searchOnline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <Button
+        android:id="@+id/btnSearchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="searchButton"
+        android:text="@string/searchButton" />
+    <TextView
+        android:text="@string/passing_an_object_to_the_second_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
